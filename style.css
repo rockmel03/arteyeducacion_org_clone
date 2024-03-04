@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "untitled-sans";
+  src: url(assets/fonts/untitled-sans-medium.woff2);
+  /* font-weight: 600; */
+}
+@font-face {
+  font-family: "untitled-serif";
+  src: url(assets/fonts//untitled-serif-regular.woff2);
+  /* font-weight: 400; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "untitled-sans";
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-black);
+}
+
+:root {
+  --color-white: #ffffff;
+  --color-black: #171615;
+}
+*::selection {
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+.hero__date_wrapper div {
+  font-family: "untitled-serif";
+}
